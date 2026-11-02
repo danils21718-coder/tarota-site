@@ -24,3 +24,7 @@ footer{border-top:1px solid var(--line);padding:24px 0;color:var(--muted);font-s
 footer a{margin:0 8px}
 [data-l]{display:none}
 html[data-lang=ru] [data-l=ru],html[data-lang=kk] [data-l=kk],html[data-lang=en] [data-l=en],html[data-lang=es] [data-l=es]{display:block}
+
+.stores a.gp{background:var(--gold);color:#120e1f;border-radius:12px;padding:10px 20px;font-weight:700;text-decoration:none}
+.stores a.gp:hover{filter:brightness(1.08)}
+.stores span{opacity:.75}
